@@ -1,0 +1,21 @@
+---
+layout: default
+jsarr: /scripts/main.js
+---
+	<script src="{{ site.github.url }}/scripts/main.js" type="text/javascript"></script>
+	<script src="{{ site.github.url }}/scripts/animatescroll.js" type="text/javascript"></script>
+<div>
+	{% if page.youtube_id %}
+	{% include video.html id=page.youtube_id %}
+	{% endif %}
+	<div id="scrollpoint"></div>
+	<div class="blogtemp">
+		<h1>{{ page.title }}</h1>
+		<div class="blogdate">{{ page.date | date_to_long_string }}</div>
+		<div class="blogbox">
+			<div class="box">
+				{{content}}
+			</div>
+		</div>
+	</div>
+</div>

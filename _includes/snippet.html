@@ -1,0 +1,12 @@
+<div class="snippet">
+	<div class="photo-wrapper"">
+		<img src="{{ include.photo }}" style="width:100%;height:auto">
+		</img>
+	</div>
+	<div class="date"> 
+		{{ include.date | date_to_string}}
+	</div> 
+	<div class="text">
+		<a href="{{ include.link }}">{{ include.title }}</a>
+	</div>
+</div>

@@ -1,0 +1,287 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-family: "mainFont";
+}
+
+body {
+	margin: 0;                      
+	padding: 0;
+	font-family: "mainFont";
+	font-size: 100%;
+	font-style: normal;
+	font-weight: normal;
+}
+
+b {
+	font-family: "mainFont";
+}
+
+@media screen and (max-device-width: 500px) {
+	.section-inner {
+		font-size: 0.1em;
+	}
+}
+
+.typed-cursor{
+    opacity: 1;
+    font-weight: 100;
+    -webkit-animation: blink 0.9s infinite;
+    -moz-animation: blink 0.9s infinite;
+    -ms-animation: blink 0.9s infinite;
+    -o-animation: blink 0.9s infinite;
+    animation: blink 0.9s infinite;
+ }
+        
+@-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+
+.section-inner {
+	text-align: center;
+	zoom: 1;
+	font-size: 2em;
+}
+
+.section-inner b {
+	font-style: bold;
+	font-family: "boldFont";
+}
+
+.site-header {
+	position: fixed;
+	height: 65px;
+	width: 100%;
+	z-index: 400;
+	background: rgba(255,255,255,0.6);
+	text-transform: uppercase;
+}
+
+.site-header .strip {
+	width: 1000px;
+	background-color: #252422;
+	height: 5px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.site-header .logo-wrapper {
+	display: block;
+	float: left;
+	margin-top: 5px;
+	margin-left: 15%
+}
+
+.site-header .nav-list {
+	font-family: "mainFont";
+	letter-spacing: 1px;
+	vertical-align: middle;
+	float: right;
+	color: #252422;
+	width: 35%;
+}
+
+.nav-list li {
+	display: block;
+	float: left; 
+	width: 200px;
+}
+
+.nav-list a {
+	padding: 10px;
+	color: #252422;
+	text-decoration: none;
+}
+
+.logo {
+	-webkit-background-size: 36px;
+	-moz-background-size: 36px;
+	background: url("../assets/Log.png") no-repeat;
+	background-size: 50px;
+	height: 50px;
+	width: 50px
+}
+
+#slickbox {
+	background: rgba(37, 36, 34, 0.8);
+	margin-top: 15px;
+	height: auto;
+	width: 100%;
+}
+
+.main-highlight {
+    background: url("../assets/hii-01.jpg") no-repeat;
+    background-size: cover;
+    height: auto;
+	width: 100%
+}
+
+/*.start-section {
+    background: url("../assets/mountainfade-01.jpg") repeat 0 0;    
+    color: #ffffff;
+    font-size: 2.00em;
+    position: absolute;
+	width: 100%;
+}
+*/
+.start-section .section-inner .header {
+	height: 10%;
+}
+
+#content {
+	background-color: #ffffff;
+	width: 100%;
+	margin: auto;
+}
+
+.innercont {
+	width: 950px;
+	height: 450px;
+	margin: 50px auto;
+}
+
+.innercont .snippet {
+	display: inline-block;
+	height: auto;
+	width: 250px;
+	padding: 20px;
+}
+
+.innercont .snippet:hover {
+	background-color: rgba(37,36,34, 0.05);
+	color: #ffffff;
+}
+
+.innercont .snippet .photo-wrapper {
+	position: relative;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	margin-left: 0px;
+}
+
+.date {
+	font-size: 0.8em;
+	text-align: center;
+	padding-bottom: 8px;
+	color: #252422;
+}
+
+.text {
+	color: #252422;
+	text-align: center;
+}
+
+#slickbox .text {
+	color: #ffffff;
+	text-transform: none;
+	padding-top: 0;
+	padding: 10px 10px;
+	line-height: 130%;
+	text-align: center;
+}
+
+.text a {
+	font-family: "mainFont";
+	padding-bottom: 25px;
+	color: #252422;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-top: 2px;
+	padding-right: 15px;
+	padding-left: 15px;
+	font-size: 14px;
+}
+
+.text a:hover {
+	color: #ffffff;
+	background-color: #252422;
+}
+
+.v-video {
+	position: absolute;
+	width: 100%!important;
+	height: 100%!important;
+}
+
+#scrollpoint {
+	position: absolute;
+}
+
+.blogtemp {
+	width: 100%;
+	position: absolute;
+	top: 86%;
+	color: #ffffff;
+}
+
+.blogtemp h1 {
+	font-size: 250%;
+	text-align: center;
+	font-family: "mainFont";
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	color: #ffffff;
+}
+
+.blogtemp .blogdate {
+	text-align: center;
+	font-family: "mainFont";
+}
+
+.blogtemp .blogbox {
+	background-color: #ffffff;
+	color: #252422;
+	position: relative;
+	padding-top: 0px;
+	width: 80%;
+	margin: 5px auto;
+	height: auto;
+}
+
+.blogtemp .blogbox .box {
+	padding: 2% 5%;
+	font-size: 1.2em;
+	font-family: "mainFont";
+	color: #252422;
+}
+
+.blogbox .box p {
+	text-indent: 50px;
+	line-height: 25px
+}
+
+@font-face {
+	font-family: "mainFont";
+	src: url("../Fonts/AvenirNextLTPro-Regular.woff") format('woff');
+}
+
+@font-face {
+	font-family: "boldFont";
+	src: url("../Fonts/AvenirNextLTPro-Bold.woff") format('woff');

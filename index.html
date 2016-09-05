@@ -1,0 +1,33 @@
+---
+layout: default
+---
+<img class="main-highlight" src="/assets/hii-01.jpg"></img>
+<div class="section-inner">
+  <span id="typed" class="title"></span>
+</div>
+<section id="content">
+  <div class="innercont"><a name="blogs"></a>
+  {% for post in site.posts limit:10 %}
+    {%  include snippet.html photo=post.thumbnail date=post.date link=post.url title=post.title %}
+  {% endfor %}
+  </div>
+</section>
+<!-- <div class="home">
+
+  <h1 class="page-heading">Post</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul> -->
+
+<!--   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p> -->
+
+</div>
