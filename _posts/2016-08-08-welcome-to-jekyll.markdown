@@ -2,11 +2,10 @@
 layout: post
 title:  "NEW YEAR, NEW BLOG"
 thumbnail: '../assets/cl-01.jpg' 
-date:   2016-08-08 20:10:01 +0100
+date:   2015-01-08 20:10:01 +0100
 categories: jekyll update
 youtube_id: b-EXjnjNMR8
 ---
-<script src="/scripts/mute.js" type="text/javascript"></script>
 <div>
 
 	<p>This was one of the journeys I took from Kathmandu to a small and almost isolated village called Phidim last summer in Nepal. I was inside a hefty and crowded bus, (only 20 mins into the 24 hour long ride) when I took this footage. Yup. 24 hours. The reason why it takes so long to travel to anywhere in Nepal by road is because of all the hills! The journey takes even longer if there is a landslide or a road accident involved. So basically, you're stuck inside a metal container along with a bunch of anxious strangers for 24 hours, except for the occasional toilet and meal breaks. By no means is this a fancy bus designed to alleviate your discomfort. Open windows are your air conditioner, a bottle of water and a bag of peanuts is all the food you get and unapologetically cheesy songs blare out of speakers (which is why the muted video).</p>

@@ -64,6 +64,7 @@ b {
 
 .section-inner {
 	text-align: center;
+	padding-top: 5%;
 	zoom: 1;
 	font-size: 2em;
 }
@@ -113,9 +114,15 @@ b {
 }
 
 .nav-list a {
-	padding: 10px;
+	padding: 15px;
 	color: #252422;
+	font-size: 12px;
 	text-decoration: none;
+}
+
+.nav-list a:hover {
+	background-color: #252422;
+	color: #ffffff;
 }
 
 .logo {
@@ -124,7 +131,17 @@ b {
 	background: url("../assets/Log.png") no-repeat;
 	background-size: 50px;
 	height: 50px;
-	width: 50px
+	width: 50px;
+}
+
+.logo:hover {
+	-webkit-background-size: 36px;
+	-moz-background-size: 36px;
+	background: url("../assets/Logow.png") no-repeat;
+	background-size: 50px;
+	height: 50px;
+	width: 50px;
+	background-color: #252422;
 }
 
 #slickbox {
@@ -203,6 +220,7 @@ b {
 	padding: 10px 10px;
 	line-height: 130%;
 	text-align: center;
+	font-size: 12px;
 }
 
 .text a {

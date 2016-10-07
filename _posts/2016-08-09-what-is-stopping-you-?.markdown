@@ -2,11 +2,10 @@
 layout: post
 title:  "What is Stopping You?"
 thumbnail: '../assets/question.jpg' 
-date:   2016-08-09 20:10:01 +0100
+date:   2015-01-20 20:10:01 +0100
 categories: jekyll update
 youtube_id: Z48d1oKgCwo
 ---
-<script src="/scripts/mute.js" type="text/javascript"></script>
 <div>
 
 	<p>Have you ever been in a situation where you are aware of all the things you need to do, but there is this fog of uncertainty surrounding you that stops you from moving forward or takes you longer to accomplish your goals? Maybe you really need to finish that homework assignment or maybe you want to start working out, and you still don't have the energy to do it.</p>

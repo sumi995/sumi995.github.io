@@ -2,11 +2,10 @@
 layout: post
 title:  "India"
 thumbnail: '../assets/India.jpg' 
-date:   2016-08-10 20:10:01 +0100
+date:   2015-11-11 20:10:01 +0100
 categories: jekyll update
 youtube_id: QDDqYSLyRo0
 ---
-<script src="/scripts/mute.js" type="text/javascript"></script>
 <div>
 
 	<p>The benefits of travelling someplace new and unfamiliar is well known. We are all familiar with the pleasures of travelling and also with the heart ache that comes with leaving a place you have just begun to love. </p>
@@ -43,4 +42,5 @@ youtube_id: QDDqYSLyRo0
 	</ol>
 	<p>I had one of the best times of my life there, and my only regret is that I didn't travel as many places as I wanted. Of course, when you're there it feels like you are never going to leave. I will be patiently waiting till my next trip to India, and till then, I can always dive into these wonderful memories and relive the same ineffable joys I felt when I was in India.</p> <br>
 	<p>P.S To play the video just scroll up and click on the blank space</p>
+
 </div>

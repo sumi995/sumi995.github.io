@@ -19,7 +19,7 @@ $(function(){
 
 $.fn.scrollView = function () {
   return this.each(function () {
-    $('html, body').animatescroll({padding: 150, scrollSpeed:2000, easing: 'easeInOutBack'});
+    $("html, body").animatescroll({padding: 150, scrollSpeed:2000, easing: 'easeInOutBack'});
   });
 }
 
