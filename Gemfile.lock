@@ -133,7 +133,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 95)
+  github-pages
   jekyll (= 3.2.1)
   json
   minima
@@ -142,4 +142,4 @@ RUBY VERSION
    ruby 2.0.0p648
 
 BUNDLED WITH
-   1.12.5
+   1.13.2
